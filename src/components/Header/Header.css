@@ -1,0 +1,35 @@
+.nav{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav_left h1{
+    color: blue;
+    font-weight: bold;
+}
+.nav_icons{
+    display: flex;
+    gap: 10px;
+
+}
+.nav_icons a{
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    
+}
+.nav_icons a span{
+    background-color: transparent;
+
+}
+.nav_icons a:hover{
+    background-color: #e0dfdf;
+}
