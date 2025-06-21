@@ -48,6 +48,7 @@
 .product_eski_narxi {
     color: #7E818C;
     font-size: 14px;
+      text-decoration: line-through;
 
 }
 

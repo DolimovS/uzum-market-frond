@@ -1,7 +1,7 @@
 import { productElektronika } from "../../DataUzum/DataUzum"
 import {Link} from 'react-router-dom'
 import "./Elektronika.css"
-console.log(productElektronika);
+// console.log(productElektronika);
 
 
 const Elektronika = () => {
@@ -10,7 +10,7 @@ const Elektronika = () => {
             <h1 className="product_catogoriya">Elektronika</h1>
             <div className="product_cards">
                 {productElektronika.map((item) =>
-                    <Link to={"/product/"+item.id} 
+                    <Link to={"/oneProduct/"+item.id} 
                     key={item.id}
                     className="product_card">
                         <div className="pruduct_img">

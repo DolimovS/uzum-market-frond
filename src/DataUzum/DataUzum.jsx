@@ -1,166 +1,167 @@
 export const SliderImg = [
     {
-        id: 10001,
+        id: 10000001,
         image: "https://images.uzum.uz/d18ett0n274lpu39pgrg/main_page_banner.jpg"
     },
     {
-        id: 10002,
+        id: 10000002,
         image: "https://images.uzum.uz/d19bp533uvppu2acdmag/main_page_banner.jpg"
     },
     {
-        id: 10003,
+        id: 10000003,
         image: "https://images.uzum.uz/d18ev4b3uvppu2ac5m60/main_page_banner.jpg"
     },
     {
-        id: 10004,
+        id: 10000004,
         image: "https://images.uzum.uz/cvc2e6bvgbkm5ehkfti0/main_page_banner.jpg"
     },
     {
-        id: 10005,
+        id: 10000005,
         image: "https://images.uzum.uz/d0gut78n274j5scme49g/main_page_banner.jpg"
     },
     {
-        id: 10006,
+        id: 10000006,
         image: "https://images.uzum.uz/d18f9jb3uvppu2ac5p8g/main_page_banner.jpg"
     },
     {
-        id: 10007,
+        id: 10000007,
         image: "https://images.uzum.uz/cv8mtqtpb7f9qcnh48jg/main_page_banner.jpg"
     },
     {
-        id: 10008,
+        id: 10000008,
         image: "https://images.uzum.uz/d0rfbl33uvph50a07rm0/main_page_banner.jpg"
     },
     {
-        id: 10009,
+        id: 10000009,
         image: "https://images.uzum.uz/cvv22jei4n37npaoncmg/main_page_banner.jpg"
     },
     {
-        id: 10010,
+        id: 10000010,
         image: "https://images.uzum.uz/d18fe6r3uvppu2ac5qbg/main_page_banner.jpg"
     },
     {
-        id: 10011,
+        id: 10000011,
         image: "https://images.uzum.uz/d0iq5cq7s4fo7mq9bbdg/main_page_banner.jpg"
     },
     {
-        id: 10012,
+        id: 10000012,
         image: "https://images.uzum.uz/d18fgqr3uvppu2ac5r6g/main_page_banner.jpg"
     }
 ];
-
 export const ProductMashhurlar = [
     {
-        id: 100001,
-        name: "Fairy limon, 450 ml",
-        description: "Idish yuvish uchun vosita Fairy, limon, 450 ml",
-        price: 12591,
-        oldPrice: 31990,
-        rating: 4.9,
-        reviews: 16251,
+        id: 10000013,
+        nomi: "Fairy limon, 450 ml",
+        tavsifi: "Idish yuvish uchun vosita Fairy, limon, 450 ml",
+        narxi: 12591,
+        eskiNarx: 31990,
+        rayting: 4.9,
+        sharhlarSoni: 16251,
         like: false,
         image: "https://images.uzum.uz/d07jl4ei4n37npaqh51g/t_product_540_high.jpg"
     },
     {
         id: 100002,
-        name: "Garnier Color Naturals 3",
-        description: "Soch uchun bo‘yoq Garnier Color Naturals, 3 qora",
-        price: 20691,
-        oldPrice: 45000,
-        rating: 4.9,
-        reviews: 1095,
+        nomi: "Garnier Color Naturals 3",
+        tavsifi: "Soch uchun bo‘yoq Garnier Color Naturals, 3 qora",
+        narxi: 20691,
+        eskiNarx: 45000,
+        rayting: 4.9,
+        sharhlarSoni: 1095,
         like: false,
         image: "https://images.uzum.uz/d0rhhaq7s4fo7mqbb77g/t_product_540_high.jpg"
     },
     {
         id: 100003,
-        name: "Palette C6 sovuq o‘rta sarğ‘ish",
-        description: "Soch bo‘yog‘i Palette, sovuq o‘rta sarğ‘ish, 110 ml",
-        price: 21531,
-        oldPrice: 31990,
-        rating: 4.9,
-        reviews: 1640,
+        nomi: "Palette C6 sovuq o‘rta sarğ‘ish",
+        tavsifi: "Soch bo‘yog‘i Palette, sovuq o‘rta sarğ‘ish, 110 ml",
+        narxi: 21531,
+        eskiNarx: 31990,
+        rayting: 4.9,
+        sharhlarSoni: 1640,
         like: false,
         image: "https://images.uzum.uz/d11c3q33uvpglcmaqs50/t_product_540_high.jpg"
     },
     {
         id: 100004,
-        name: "Charm polik Lacetti, Nexia",
-        description: "Yukxona uchun charm polik, Chevrolet Lacetti, Cobalt, Nexia",
-        price: 179046,
-        oldPrice: 269000,
-        rating: 4.9,
-        reviews: 493,
+        nomi: "Charm polik Lacetti, Nexia",
+        tavsifi: "Yukxona uchun charm polik, Chevrolet Lacetti, Cobalt, Nexia",
+        narxi: 179046,
+        eskiNarx: 269000,
+        rayting: 4.9,
+        sharhlarSoni: 493,
         like: false,
         image: "https://images.uzum.uz/cicbkat40v9pplt4m960/t_product_540_high.jpg"
     },
     {
         id: 100005,
-        name: "Boyfriend jinsi shimlar",
-        description: "Erkaklar uchun shimlar, BOYFRIEND jinsi, bahor-yoz 2025",
-        price: 198200,
-        oldPrice: 0,
-        rating: 4.8,
-        reviews: 241,
+        nomi: "Boyfriend jinsi shimlar",
+        tavsifi: "Erkaklar uchun shimlar, BOYFRIEND jinsi, bahor-yoz 2025",
+        narxi: 198200,
+        eskiNarx: 0,
+        rayting: 4.8,
+        sharhlarSoni: 241,
         like: false,
         image: "https://images.uzum.uz/cuo74ktht56sc95f0apg/t_product_540_high.jpg"
     },
     {
         id: 100006,
-        name: "Tент-zont oynasi uchun soyabon",
-        description: "Avtomobil old oynasi uchun tent-soyabon",
-        price: 39600,
-        oldPrice: 147000,
-        rating: 4.7,
-        reviews: 1698,
+        nomi: "Tент-zont oynasi uchun soyabon",
+        tavsifi: "Avtomobil old oynasi uchun tent-soyabon",
+        narxi: 39600,
+        eskiNarx: 147000,
+        rayting: 4.7,
+        sharhlarSoni: 1698,
         like: false,
         image: "https://images.uzum.uz/co6l9ptlqsilsr3ma81g/t_product_540_high.jpg"
     },
     {
         id: 100007,
-        name: "Esty 2 qavatli hojatxona qog‘ozi",
-        description: "Hojatxona qog‘ozi Esty, 2 qavatli, 8 dona",
-        price: 17091,
-        oldPrice: 22990,
-        rating: 4.8,
-        reviews: 1768,
+        nomi: "Esty 2 qavatli hojatxona qog‘ozi",
+        tavsifi: "Hojatxona qog‘ozi Esty, 2 qavatli, 8 dona",
+        narxi: 17091,
+        eskiNarx: 22990,
+        rayting: 4.8,
+        sharhlarSoni: 1768,
         like: false,
         image: "https://images.uzum.uz/cd1en3b5a95unf1241n0/t_product_540_high.jpg"
     },
     {
         id: 100008,
-        name: "Polo ko‘ylak, Nasem",
-        description: "Ikki chiziqli erkaklar polo ko‘ylak, 100% paxta, Nasem",
-        price: 134991,
-        oldPrice: 229990,
-        rating: 4.7,
-        reviews: 139,
+        nomi: "Polo ko‘ylak, Nasem",
+        tavsifi: "Ikki chiziqli erkaklar polo ko‘ylak, 100% paxta, Nasem",
+        narxi: 134991,
+        eskiNarx: 229990,
+        rayting: 4.7,
+        sharhlarSoni: 139,
         like: false,
         image: "https://images.uzum.uz/d046bts7fd1idphta250/t_product_540_high.jpg"
     },
     {
         id: 100009,
-        name: "Avto tugma silikon qoplama",
-        description: "Avtomobil uchun zarbaga chidamli silikon qoplama, 2x",
-        price: 8100,
-        oldPrice: 49900,
-        rating: 4.2,
-        reviews: 1224,
+        nomi: "Avto tugma silikon qoplama",
+        tavsifi: "Avtomobil uchun zarbaga chidamli silikon qoplama, 2x",
+        narxi: 8100,
+        eskiNarx: 49900,
+        rayting: 4.2,
+        sharhlarSoni: 1224,
         like: false,
         image: "https://images.uzum.uz/cjno1nkvutv7lqbs4hf0/t_product_540_high.jpg"
     },
     {
         id: 100010,
-        name: "Erkaklar uchun jinsi shimlar",
-        description: "Erkaklar uchun klassik jinsi shimlar, 100% paxta",
-        price: 134100,
-        oldPrice: 390000,
-        rating: 4.4,
-        reviews: 1111,
+        nomi: "Erkaklar uchun jinsi shimlar",
+        tavsifi: "Erkaklar uchun klassik jinsi shimlar, 100% paxta",
+        narxi: 134100,
+        eskiNarx: 390000,
+        rayting: 4.4,
+        sharhlarSoni: 1111,
         like: false,
         image: "https://images.uzum.uz/cu1kigmi4n324lr3m470/t_product_540_high.jpg"
     }
 ];
+
+
 export const UzumCards = [
     {
         id: 87012945,
@@ -498,20 +499,6 @@ export const ArzonNarxlar = [
     }
 ];
 
-export const catogoriyaReklama = [
-    {
-        id: 1,
-        image: "https://images.uzum.uz/d0e9nfgn274j5sclsod0/main_page_banner.jpg"
-    },
-    {
-        id: 2,
-        image: "https://images.uzum.uz/cvcg2f3vgbkm5ehkika0/main_page_banner.jpg"
-    },
-    {
-        id: 3,
-        image: "https://images.uzum.uz/cu0fheei4n324lr3d4gg/main_page_banner.jpg"
-    },
-]
 export const SovutishTexnikasi = [
     {
         id: 18392047,
@@ -821,7 +808,7 @@ export const krossovka = [
         reyting: 4.9,
         sharhlar: 177,
         brend: null,
-        rasm: "erkak_krossovka2.jpg"
+        rasm: "https://images.uzum.uz/cobknh179c1bjs1a9n10/original.jpg"
     },
     {
         id: 93052188,
@@ -1121,6 +1108,21 @@ export const UyRozgorBuyumlari = [
     }
 ];
 
+
+export const catogoriyaReklama = [
+    {
+        id: 1,
+        image: "https://images.uzum.uz/d0e9nfgn274j5sclsod0/main_page_banner.jpg"
+    },
+    {
+        id: 2,
+        image: "https://images.uzum.uz/cvcg2f3vgbkm5ehkika0/main_page_banner.jpg"
+    },
+    {
+        id: 3,
+        image: "https://images.uzum.uz/cu0fheei4n324lr3d4gg/main_page_banner.jpg"
+    },
+]
 
 
 

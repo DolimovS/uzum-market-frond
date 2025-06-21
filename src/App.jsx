@@ -5,6 +5,7 @@ import './App.css'
 import Slider from './components/Slider/Slider'
 import Elektronika from './components/Elektronika/Elektronika'
 import OneProduct from './OneProduct/OneProduct'
+import Krasovka from './components/Krasovka/Krasovka'
 
 function App() {
 
@@ -13,8 +14,9 @@ function App() {
       <Header/>
         <Routes>
           <Route path='elektronika' element={<Elektronika/>} />
+          <Route path='/krasovka' element={<Krasovka/>} />
           <Route path='slider' element={<Slider/>}/>
-          <Route path='/pruduct:/id' element={<OneProduct/>}/>
+          <Route path='/oneProduct/:id' element={<OneProduct/>}/>
         </Routes>
     </div>
   )

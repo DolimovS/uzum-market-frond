@@ -23,9 +23,8 @@ export const AllProducts = [
     ...SovutishTexnikasi,
     ...LGChegirmalari,
     ...HovuzAksessuarlar,
-
     ...productElektronika,
     ...krossovka,
     ...ZargarlikBuyumlari,
-    ...UyRozgorBuyumlari,
+    ...UyRozgorBuyumlari
 ];
