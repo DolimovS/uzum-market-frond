@@ -1,0 +1,76 @@
+.product_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.product_catogoriya {
+    text-align: center;
+}
+
+.product_card {
+    width: 223.5px;
+    height: 481px;
+    position: relative;
+}
+
+.pruduct_img {
+    width: 223.5px;
+    height: 313px;
+    overflow: hidden;
+}
+
+.product_card p,
+.product_card span {
+    padding: 3px 5px;
+}
+
+.product_card img {
+    width: 223.5px;
+    height: 313px;
+    border-radius: 10px;
+    transform: .5s;
+}
+
+.product_card img:hover {
+    transform: scale(1.05);
+    border-radius: 0;
+}
+
+.product_narxi {
+    color: #7F4dFF;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.product_eski_narxi {
+    color: #7E818C;
+    font-size: 14px;
+
+}
+
+.pruduct_bolib_tolash {
+    background-color: #FFFF00;
+    border-radius: 10px;
+}
+
+.product_cards button {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #7000FF;
+    color: #FFFFFF;
+    padding: 9px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pruduct_bolib_tolash,
+.product_nomi,
+.product_reyting {
+    color: #1F2026;
+}

@@ -19,10 +19,11 @@ const Header = () => {
                         </div>
                 </div>
                 <div className="nav_catogoriya">
-                    <li><NavLink to="/">Elektronika</NavLink></li>
+                    <li><NavLink to="/elektronika">Elektronika</NavLink></li>
                     <li><NavLink to="/">Krossovka</NavLink></li>
                     <li><NavLink to="/">Zargarlik Buyumlari</NavLink></li>
                     <li><NavLink to="/">Uy Rozgor Buyumlari</NavLink></li>
+                    <li><NavLink to="/slider">Slider</NavLink></li>
                 </div>
              </nav>
         </div>
