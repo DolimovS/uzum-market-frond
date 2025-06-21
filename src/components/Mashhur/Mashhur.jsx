@@ -1,19 +1,19 @@
-import { ZargarlikBuyumlari } from "../../DataUzum/DataUzum"
+import { ProductMashhurlar } from "../../DataUzum/DataUzum"
 import { Link } from 'react-router-dom'
 import { addToCart } from "../../utils/LocalGetSet"
-import "../../components/Elektronika/Elektronika.css"
-const Zargarlik = () => {
+import "../Elektronika/Elektronika.css"
+const Mashhur = () => {
     return (
         <div>
-            <h1 className="product_catogoriya">Zargarlik Buyumlari</h1>
+            <h1 className="product_catogoriya" style={{ textAlign: "left" }}>Mashhur</h1>
             <div className="product_cards">
-                {ZargarlikBuyumlari.map((item) =>
+                {ProductMashhurlar.slice(0,8).map((item) =>
                     <div
                         className="product_card"
                         key={item.id}>
                         <Link to={"/oneProduct/" + item.id}>
                             <div className="pruduct_img">
-                                <img src={item.rasm} alt="image" />
+                                <img src={item.image} alt="image" />
                             </div>
                         </Link>
                         <p className="product_narxi">{item.narxi}</p>
@@ -32,4 +32,4 @@ const Zargarlik = () => {
     )
 }
 
-export default Zargarlik
+export default Mashhur

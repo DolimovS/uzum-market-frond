@@ -1,0 +1,7 @@
+.uzum_cards{
+    /* border: 1px solid red; */
+    height: 560px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}

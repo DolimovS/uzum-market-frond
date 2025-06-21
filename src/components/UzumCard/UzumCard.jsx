@@ -1,13 +1,14 @@
-import { ZargarlikBuyumlari } from "../../DataUzum/DataUzum"
+import { UzumCards } from '../../DataUzum/DataUzum'
 import { Link } from 'react-router-dom'
-import { addToCart } from "../../utils/LocalGetSet"
-import "../../components/Elektronika/Elektronika.css"
-const Zargarlik = () => {
+import { addToCart } from '../../utils/LocalGetSet'
+import "../Elektronika/Elektronika.css"
+import "./UzumCard.css"
+const UzumCard = () => {
     return (
         <div>
-            <h1 className="product_catogoriya">Zargarlik Buyumlari</h1>
-            <div className="product_cards">
-                {ZargarlikBuyumlari.map((item) =>
+            <h1 className="product_catogoriya" style={{ textAlign: "left" }}>Uzum karta bilan</h1>
+            <div className="product_cards uzum_cards">
+                {UzumCards.map((item) =>
                     <div
                         className="product_card"
                         key={item.id}>
@@ -32,4 +33,4 @@ const Zargarlik = () => {
     )
 }
 
-export default Zargarlik
+export default UzumCard

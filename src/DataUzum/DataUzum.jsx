@@ -160,118 +160,116 @@ export const ProductMashhurlar = [
         image: "https://images.uzum.uz/cu1kigmi4n324lr3m470/t_product_540_high.jpg"
     }
 ];
-
-
 export const UzumCards = [
     {
         id: 87012945,
-        name: "Bestway Fast Set basseyn",
-        description: "Puflanadigan basseyn Bestway Fast Set, 3800 litr",
-        price: 179991,
-        oldPrice: 500000,
-        rating: 5.0,
-        reviews: 9,
+        nomi: "Bestway Fast Set basseyn",
+        tavsifi: "Puflanadigan basseyn Bestway Fast Set, 3800 litr",
+        narxi: 179991,
+        eskiNarx: 500000,
+        rayting: 5.0,
+        sharhlarSoni: 9,
         like: false,
-        image: "https://images.uzum.uz/d19uk9on274lpu3a5ho0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/d19uk9on274lpu3a5ho0/t_product_540_high.jpg"
     },
     {
         id: 34872916,
-        name: "Premier PRM-222TFDF sovutgich",
-        description: "Sovutgich Premier PRM-222TFDF, 222 litr",
-        price: 2669000,
-        oldPrice: 0,
-        rating: 5.0,
-        reviews: 76,
+        nomi: "Premier PRM-222TFDF sovutgich",
+        tavsifi: "Sovutgich Premier PRM-222TFDF, 222 litr",
+        narxi: 2669000,
+        eskiNarx: 0,
+        rayting: 5.0,
+        sharhlarSoni: 76,
         like: false,
-        image: "https://images.uzum.uz/d09gt3ei4n37npaqv4n0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/d09gt3ei4n37npaqv4n0/t_product_540_high.jpg"
     },
     {
         id: 23589710,
-        name: "CROCS 207988",
-        description: "Ayollar va erkaklar uchun kroskalar, CROCS 207988",
-        price: 859000,
-        oldPrice: 0,
-        rating: 0,
-        reviews: 0,
+        nomi: "CROCS 207988",
+        tavsifi: "Ayollar va erkaklar uchun kroskalar, CROCS 207988",
+        narxi: 859000,
+        eskiNarx: 0,
+        rayting: 0,
+        sharhlarSoni: 0,
         like: false,
-        image: "https://images.uzum.uz/d0nvlsr3uvph509vep6g/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/d0nvlsr3uvph509vep6g/t_product_540_high.jpg"
     },
     {
         id: 93274108,
-        name: "Pepsi 1.5 litr",
-        description: "Gazlangan ichimlik Pepsi, 1.5 litr",
-        price: 9891,
-        oldPrice: 17000,
-        rating: 4.9,
-        reviews: 8689,
+        nomi: "Pepsi 1.5 litr",
+        tavsifi: "Gazlangan ichimlik Pepsi, 1.5 litr",
+        narxi: 9891,
+        eskiNarx: 17000,
+        rayting: 4.9,
+        sharhlarSoni: 8689,
         like: false,
-        image: "https://images.uzum.uz/crha8n9bjcvd8a76bt10/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/crha8n9bjcvd8a76bt10/t_product_540_high.jpg"
     },
     {
         id: 71532094,
-        name: "Yozgi asosiy platye, S-L",
-        description: "Ayollar uchun yozgi platye, keng yelkali, 100% paxta",
-        price: 148000,
-        oldPrice: 259000,
-        rating: 5.0,
-        reviews: 15,
+        nomi: "Yozgi asosiy platye, S-L",
+        tavsifi: "Ayollar uchun yozgi platye, keng yelkali, 100% paxta",
+        narxi: 148000,
+        eskiNarx: 259000,
+        rayting: 5.0,
+        sharhlarSoni: 15,
         like: false,
-        image: "https://images.uzum.uz/d18g3aa7s4fup34aamcg/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/d18g3aa7s4fup34aamcg/t_product_540_high.jpg"
     },
     {
         id: 59128376,
-        name: "Avon Cherish 50ml",
-        description: "Ayollar uchun parfyuumlangan suv Avon Cherish, 50 ml",
-        price: 67992,
-        oldPrice: 218980,
-        rating: 4.8,
-        reviews: 1616,
+        nomi: "Avon Cherish 50ml",
+        tavsifi: "Ayollar uchun parfyuumlangan suv Avon Cherish, 50 ml",
+        narxi: 67992,
+        eskiNarx: 218980,
+        rayting: 4.8,
+        sharhlarSoni: 1616,
         like: false,
-        image: "https://images.uzum.uz/cldilnt6sfhvbd1i82g0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/cldilnt6sfhvbd1i82g0/t_product_540_high.jpg"
     },
     {
         id: 82647301,
-        name: "Bestway Steel Pro 1200-7140L",
-        description: "Karkasli basseyn Bestway Steel Pro, butun oila uchun",
-        price: 719100,
-        oldPrice: 2379000,
-        rating: 4.9,
-        reviews: 55,
+        nomi: "Bestway Steel Pro 1200-7140L",
+        tavsifi: "Karkasli basseyn Bestway Steel Pro, butun oila uchun",
+        narxi: 719100,
+        eskiNarx: 2379000,
+        rayting: 4.9,
+        sharhlarSoni: 55,
         like: false,
-        image: "https://images.uzum.uz/d19un6j3uvppu2achot0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/d19un6j3uvppu2achot0/t_product_540_high.jpg"
     },
     {
         id: 48720135,
-        name: "Samsung Galaxy A56 5G",
-        description: "Smartfon Galaxy A56, 50MP, 128GB, 5000 mAh",
-        price: 4309440,
-        oldPrice: 8200000,
-        rating: 4.9,
-        reviews: 284,
+        nomi: "Samsung Galaxy A56 5G",
+        tavsifi: "Smartfon Galaxy A56, 50MP, 128GB, 5000 mAh",
+        narxi: 4309440,
+        eskiNarx: 8200000,
+        rayting: 4.9,
+        sharhlarSoni: 284,
         like: false,
-        image: "https://images.uzum.uz/cvbv1o3vgbkm5ehke5u0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/cvbv1o3vgbkm5ehke5u0/t_product_540_high.jpg"
     },
     {
         id: 62839017,
-        name: "Erkaklar kiyim to‘plami",
-        description: "Shorti va futbolka, erkaklar kiyim to‘plami",
-        price: 80991,
-        oldPrice: 256000,
-        rating: 5.0,
-        reviews: 3,
+        nomi: "Erkaklar kiyim to‘plami",
+        tavsifi: "Shorti va futbolka, erkaklar kiyim to‘plami",
+        narxi: 80991,
+        eskiNarx: 256000,
+        rayting: 5.0,
+        sharhlarSoni: 3,
         like: false,
-        image: "https://images.uzum.uz/d0q3raq7s4fo7mqavi1g/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/d0q3raq7s4fo7mqavi1g/t_product_540_high.jpg"
     },
     {
         id: 71450283,
-        name: "Tesla monitor Matiz uchun",
-        description: "Avto monitor Tesla, Matiz uchun, 4+64GB, WiFi kuler",
-        price: 487473,
-        oldPrice: 980000,
-        rating: 4.6,
-        reviews: 302,
+        nomi: "Tesla monitor Matiz uchun",
+        tavsifi: "Avto monitor Tesla, Matiz uchun, 4+64GB, WiFi kuler",
+        narxi: 487473,
+        eskiNarx: 980000,
+        rayting: 4.6,
+        sharhlarSoni: 302,
         like: false,
-        image: "https://images.uzum.uz/d18gq933uvppu2ac68j0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/d18gq933uvppu2ac68j0/t_product_540_high.jpg"
     }
 ];
 export const OshxonaJihozlari = [

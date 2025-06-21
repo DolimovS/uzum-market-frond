@@ -1,24 +1,25 @@
 .product_cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 36px;
     /* border: 1px solid red; */
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .product_catogoriya {
+    margin-top: 20px;
     text-align: center;
 }
 
 .product_card {
-    width: 223.5px;
-    height: 481px;
+    width: 326px;
+    height: 531px;
     position: relative;
 }
 
 .pruduct_img {
-    width: 223.5px;
-    height: 313px;
+    width: 326px;
+    height: 350px;
     overflow: hidden;
 }
 
@@ -28,8 +29,8 @@
 }
 
 .product_card img {
-    width: 223.5px;
-    height: 313px;
+    width: 326px;
+    height: 350px;
     border-radius: 10px;
     transform: .5s;
 }

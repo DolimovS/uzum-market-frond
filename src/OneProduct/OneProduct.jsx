@@ -13,7 +13,7 @@ const OneProduct = () => {
     return (
         <div className="one_product_cars">
             <div className="one_product_card">
-                <img src={AllProductOne.rasm} alt="" />
+                <img src={AllProductOne?.rasm} alt="" />
                 <div className="one_product_card_text">
                     <h1>{AllProductOne.nomi}</h1>
                     <p>{AllProductOne.tavsifi}</p>
