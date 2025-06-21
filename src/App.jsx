@@ -6,6 +6,7 @@ import Slider from './components/Slider/Slider'
 import Elektronika from './components/Elektronika/Elektronika'
 import OneProduct from './OneProduct/OneProduct'
 import Krasovka from './components/Krasovka/Krasovka'
+import Zargarlik from './components/Zargarlik/Zargarlik'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='elektronika' element={<Elektronika/>} />
           <Route path='/krasovka' element={<Krasovka/>} />
+          <Route path='/zargarlikBuyumlari' element={<Zargarlik/>} />
           <Route path='slider' element={<Slider/>}/>
           <Route path='/oneProduct/:id' element={<OneProduct/>}/>
         </Routes>
