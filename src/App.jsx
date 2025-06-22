@@ -12,6 +12,9 @@ import SavatProduct from './SavatProduct/SavatProduct'
 
 function App() {
 
+
+  // Localdan olish
+
   return (
     <div className="container">
       <Header/>
