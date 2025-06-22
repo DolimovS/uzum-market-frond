@@ -12,7 +12,7 @@ const Header = () => {
                             <span role="img" aria-label="favorites">💖</span>
                             <span>Saralanganlar</span>
                         </NavLink>
-                        <NavLink to="/cart" className="nav_icon">
+                        <NavLink to="/savat" className="nav_icon">
                             <span role="img" aria-label="cart">🛒</span>
                             <span>Savat</span>
                         </NavLink>

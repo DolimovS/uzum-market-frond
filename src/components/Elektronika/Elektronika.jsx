@@ -8,8 +8,6 @@ import { addToCart } from "../../utils/LocalGetSet"
 
 const Elektronika = () => {
 
-
-
     return (
         <div>
             <h1 className="product_catogoriya">Elektronika</h1>
