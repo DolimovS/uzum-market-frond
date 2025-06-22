@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { getCart } from "../utils/LocalGetSet";
+import { sendToTelegram } from "../utils/TelegramBot";
 import './SavadProduct.css'
 
 const SavatProduct = () => {
@@ -75,7 +76,7 @@ const decreaseQty = (id) => {
                     <div className="cart-total">
                         Umumiy summa: <b>{totalSum} so'm</b>
                     </div>
-                    <button className="order-btn" onClick={handleOrder}>
+                    <button className="order-btn" onClick={sendToTelegram}>
                         Buyurtma berish
                     </button>
                 </div>
