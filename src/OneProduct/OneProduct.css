@@ -1,9 +1,11 @@
 .one_product_cars{
     min-height: 80vh;
-          background: #f5f6fa;
+    background: #f5f6fa;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    border: 1px solid red;
 }
 .one_product_card{
     display: flex;
@@ -11,10 +13,31 @@
     gap: 50px;
     border-radius: 20px;
     padding: 30px;
+    position: relative;
 }
 .one_product_card img{
     width: 300px;
     border-radius: 20px;
+}
+.one_product_card img:hover{
+    animation: img_deg 1s ease-out;
+}
+@keyframes img_deg {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
 
 .one_eski_narxi{
@@ -29,4 +52,24 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+/* oldingi_sahifa */
+.oldingi_sahifa{
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    width: 40px;
+    height: 40px;
+    font-size: 27px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oldingi_sahifa:hover{
+    transform: scale(1.1);
 }

@@ -3,6 +3,7 @@
   margin: 30px auto;
   padding: 20px;
   background: #f9f9f9;
+  box-shadow: 10px 10px 10px #999999;
   border-radius: 10px;
 }
 
@@ -23,7 +24,9 @@
   margin-bottom: 15px;
   padding: 10px 15px;
   border-radius: 8px;
-  box-shadow: 0 1px 4px #eee;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  /* box-shadow: 10px 10px 10px #999999; */
+  /* border: 1px solid red; */
 }
 .cart-info {
   padding-left: 10px;
@@ -31,6 +34,12 @@
   display: flex;
   gap: 5px;
   flex-direction: column;
+}
+.cart_rigth{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: end;
 }
 .cart-title {
   font-weight: 600;
