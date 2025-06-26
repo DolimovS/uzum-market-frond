@@ -25,7 +25,7 @@ const OneProduct = () => {
                     <p>{AllProductOne.tavsifi}</p>
                     <p className='one_narxi'>
                         <span>${AllProductOne.narxi}</span>
-                        <span className='one_eski_narxi'>${AllProductOne.eskiNarx}</span>
+                        <span className='one_eski_narxi'>${AllProductOne.eskiNarx }</span>
                         <span>⭐{AllProductOne.reyting}({AllProductOne.sharhlar} sharhlar)</span>
                     </p>
                 </div>

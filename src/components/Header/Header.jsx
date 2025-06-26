@@ -25,7 +25,6 @@ const Header = () => {
                     <li><NavLink to="/uyRozgorBuyumlari">Uy Rozgor Buyumlari</NavLink></li>
                 </div>
             </nav>
-            
         </div>
     )
 }

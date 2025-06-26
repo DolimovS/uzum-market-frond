@@ -1,0 +1,14 @@
+.banner_image{
+    margin-top: 16px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.banner_image img{
+    border-radius: 8px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+}
+
+.banner_image img:hover{
+    transform: scale(1.05);
+}

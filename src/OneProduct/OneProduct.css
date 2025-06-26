@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .one_product_card{
     display: flex;
@@ -13,7 +13,9 @@
     gap: 50px;
     border-radius: 20px;
     padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
+    /* border: 1px solid red; */
 }
 .one_product_card img{
     width: 300px;

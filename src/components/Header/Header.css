@@ -1,8 +1,18 @@
+ /* ⚠️ sticky ishlashi uchun */
+
 .nav{
     padding-top: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    /* position:fixed; */
+    /* max-width: 1440px; */
+    /* width: 100%; */
+    /* padding:  10px; */
+    /* border-radius: 10px; */
+    /* top: 10px; */
+    /* z-index: 99; */
+    /* border: 1px solid red; */
 }
 .nav_left{
     display: flex;
