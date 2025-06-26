@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { getCart } from "../utils/LocalGetSet";
 import { sendToTelegram } from "../utils/TelegramBot";
 import './SavadProduct.css';
+import { HiXMark } from "react-icons/hi2";
+import { useOrqagaQaytish } from "../utils/orqagaQaytish";
 
 const SavatProduct = () => {
     const [cartItems, setCartItems] = useState([]);
@@ -47,15 +49,20 @@ const SavatProduct = () => {
         }
 
         sendToTelegram(); // Telegramga yuborish
-        alert("Buyurtma berildi!");
 
         // Savatni tozalash
         setCartItems([]);
         localStorage.removeItem("cart");
     };
 
+    // orqaga qaytish
+    const useOrqagaQaytish_2=useOrqagaQaytish();
+
     return (
         <div className="cart-container">
+            <div className="qaytish">
+                <HiXMark onClick={()=>{useOrqagaQaytish_2()}}/>
+            </div>
             <h2>Savat</h2>
             {cartItems.length === 0 ? (
                 <p className="savat_bosh">Savat bo'sh</p>
