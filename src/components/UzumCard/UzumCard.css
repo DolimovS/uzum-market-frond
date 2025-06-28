@@ -9,18 +9,18 @@
 
 @media (max-width:937px) {
     .uzum_cards {
-        height: 520px;
+        height: 530px;
     }
 }
 
 @media (max-width:570px) {
     .uzum_cards {
-        height: 470px;
+        height: 480px;
     }
 }
 
 @media (max-width:500px) {
         .uzum_cards {
-        height: 390px;
+        height: 400px;
     }
 }

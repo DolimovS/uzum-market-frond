@@ -6,7 +6,7 @@ import {SliderImg} from "../../DataUzum/DataUzum"
 const Slider = () => {
     const [rasmIndex,setRasmIndex]=useState(0)
 
-    console.log(SliderImg);
+    // console.log(SliderImg);
     useEffect(()=>{
         let plusIndex=setInterval(()=>{
             setRasmIndex((item)=>
@@ -16,7 +16,7 @@ const Slider = () => {
         return()=>clearInterval(plusIndex)
     },[])
     let currentImage=SliderImg[rasmIndex]
-    console.log(currentImage);
+    // console.log(currentImage);
     
     
   return (

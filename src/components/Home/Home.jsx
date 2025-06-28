@@ -4,6 +4,7 @@ import UzumCard from '../UzumCard/UzumCard'
 import { catogoriyaReklama } from "../../DataUzum/DataUzum"
 import "./Home.css"
 import ArzonNarx from "../ArzonNarx/ArzonNarx"
+import OshxonaJihozlari from "../OshxonaJihozlari/OshxonaJihozlari"
 const Home = () => {
     return (
         <div>
@@ -17,6 +18,7 @@ const Home = () => {
             <div className="banner_image">
                 <img src={catogoriyaReklama[1].image} alt="Banner Image" />
             </div>
+            <OshxonaJihozlari/>
         </div>
     )
 }
