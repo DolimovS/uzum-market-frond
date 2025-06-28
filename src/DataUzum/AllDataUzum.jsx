@@ -2,7 +2,7 @@
 import { SliderImg } from "./DataUzum"
 import { ProductMashhurlar } from "./DataUzum"
 import { UzumCards } from "./DataUzum"
-import { OshxonaJihozlari } from "./DataUzum"
+import { OshxonaJihozlariBir } from "./DataUzum"
 import { ArzonNarxlar } from "./DataUzum"
 import { SovutishTexnikasi } from "./DataUzum"
 import { LGChegirmalari } from "./DataUzum"
@@ -18,7 +18,7 @@ export const AllProducts = [
     ...SliderImg,
     ...ProductMashhurlar,
     ...UzumCards,
-    ...OshxonaJihozlari,
+    ...OshxonaJihozlariBir,
     ...ArzonNarxlar,
     ...SovutishTexnikasi,
     ...LGChegirmalari,

@@ -272,116 +272,116 @@ export const UzumCards = [
         rasm: "https://images.uzum.uz/d18gq933uvppu2ac68j0/t_product_540_high.jpg"
     }
 ];
-export const OshxonaJihozlari = [
+export const OshxonaJihozlariBir = [
     {
         id: 87192346,
-        name: "Qahva mashinasi Delonghi Dinamica Plus ECAM380.95.TB",
-        description: "Perfetto! Katta savdo",
-        price: 12349050,
-        oldPrice: 12862000,
-        rating: 4.8,
-        reviews: 16,
+        nomi: "Qahva mashinasi Delonghi Dinamica Plus ECAM380.95.TB",
+        tavsifi: "Perfetto! Katta savdo",
+        narxi: 12349050,
+        eskiNarx: 12862000,
+        reyting: 4.8,
+        sharhlarSoni: 16,
         like: false,
-        image: "https://images.uzum.uz/cpkn0m0sarnfdo97k6kg/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/cpkn0m0sarnfdo97k6kg/t_product_540_high.jpg"
     },
     {
         id: 59283017,
-        name: "Portativ mini-blender Nutribullet NPB003UBL",
-        description: "0.475L, USB, Arzon narx kafolati",
-        price: 549000,
-        oldPrice: 0,
-        rating: 0,
-        reviews: 0,
+        nomi: "Portativ mini-blender Nutribullet NPB003UBL",
+        tavsifi: "0.475L, USB, Arzon narx kafolati",
+        narxi: 549000,
+        eskiNarx: 0,
+        reyting: 0,
+        sharhlarSoni: 0,
         like: false,
-        image: "https://images.uzum.uz/d100fs8n274lpu38455g/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/d100fs8n274lpu38455g/t_product_540_high.jpg"
     },
     {
         id: 19384752,
-        name: "Blender Braun MQ535 SAUCE",
-        description: "Katta savdo",
-        price: 724500,
-        oldPrice: 0,
-        rating: 5.0,
-        reviews: 1,
+        nomi: "Blender Braun MQ535 SAUCE",
+        tavsifi: "Katta savdo",
+        narxi: 724500,
+        eskiNarx: 0,
+        reyting: 5.0,
+        sharhlarSoni: 1,
         like: false,
-        image: "https://images.uzum.uz/cn5hi1rifoubkc6rmhhg/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/cn5hi1rifoubkc6rmhhg/t_product_540_high.jpg"
     },
     {
         id: 67423198,
-        name: "Blender Braun MultiQuick 9 MQ9187XLI",
-        description: "1200W, Katta savdo",
-        price: 2294100,
-        oldPrice: 2698000,
-        rating: 4.0,
-        reviews: 3,
+        nomi: "Blender Braun MultiQuick 9 MQ9187XLI",
+        tavsifi: "1200W, Katta savdo",
+        narxi: 2294100,
+        eskiNarx: 2698000,
+        reyting: 4.0,
+        sharhlarSoni: 3,
         like: false,
-        image: "https://images.uzum.uz/cpg0573mdtjnp738caag/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/cpg0573mdtjnp738caag/t_product_540_high.jpg"
     },
     {
         id: 78312964,
-        name: "Elektr choynak Braun WK300 WH",
-        description: "1.7L, 2200W, Katta savdo",
-        price: 701100,
-        oldPrice: 1138800,
-        rating: 5.0,
-        reviews: 2,
+        nomi: "Elektr choynak Braun WK300 WH",
+        tavsifi: "1.7L, 2200W, Katta savdo",
+        narxi: 701100,
+        eskiNarx: 1138800,
+        reyting: 5.0,
+        sharhlarSoni: 2,
         like: false,
-        image: "https://images.uzum.uz/cpp77l36eisq2rkclta0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/cpp77l36eisq2rkclta0/t_product_540_high.jpg"
     },
     {
         id: 13820749,
-        name: "Blender Braun MQ7020WH",
-        description: "Cho‘kadigan blender, 1000W",
-        price: 877500,
-        oldPrice: 1445000,
-        rating: 5.0,
-        reviews: 1,
+        nomi: "Blender Braun MQ7020WH",
+        tavsifi: "Cho‘kadigan blender, 1000W",
+        narxi: 877500,
+        eskiNarx: 1445000,
+        reyting: 5.0,
+        sharhlarSoni: 1,
         like: false,
-        image: "https://images.uzum.uz/cq3u5vj6eisq2rkepob0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/cq3u5vj6eisq2rkepob0/t_product_540_high.jpg"
     },
     {
         id: 48293016,
-        name: "Go‘sht maydalagich Kenwood MG516",
-        description: "Katta savdo",
-        price: 2690100,
-        oldPrice: 0,
-        rating: 5.0,
-        reviews: 2,
+        nomi: "Go‘sht maydalagich Kenwood MG516",
+        tavsifi: "Katta savdo",
+        narxi: 2690100,
+        eskiNarx: 0,
+        reyting: 5.0,
+        sharhlarSoni: 2,
         like: false,
-        image: "https://images.uzum.uz/ckdvqu3k9fq8lb3a1d00/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/ckdvqu3k9fq8lb3a1d00/t_product_540_high.jpg"
     },
     {
         id: 30289471,
-        name: "Dazmol Braun SI5071GR",
-        description: "Bug‘li dazmol",
-        price: 841500,
-        oldPrice: 0,
-        rating: 0,
-        reviews: 0,
+        nomi: "Dazmol Braun SI5071GR",
+        tavsifi: "Bug‘li dazmol",
+        narxi: 841500,
+        eskiNarx: 0,
+        reyting: 0,
+        sharhlarSoni: 0,
         like: false,
-        image: "https://images.uzum.uz/csbpoblpq3ghb2qkd7h0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/csbpoblpq3ghb2qkd7h0/t_product_540_high.jpg"
     },
     {
         id: 67231498,
-        name: "Elektr choynak Braun WK500WH",
-        description: "2200W, 1.7L",
-        price: 818100,
-        oldPrice: 1098800,
-        rating: 5.0,
-        reviews: 3,
+        nomi: "Elektr choynak Braun WK500WH",
+        tavsifi: "2200W, 1.7L",
+        narxi: 818100,
+        eskiNarx: 1098800,
+        reyting: 5.0,
+        sharhlarSoni: 3,
         like: false,
-        image: "https://images.uzum.uz/cpcma9bmdtjnp737mrg0/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/cpcma9bmdtjnp737mrg0/t_product_540_high.jpg"
     },
     {
         id: 95126084,
-        name: "Elektr choynak Braun WK1100WH",
-        description: "1.7L, 45 soniyada qaynaydi",
-        price: 467100,
-        oldPrice: 1148200,
-        rating: 4.9,
-        reviews: 7,
+        nomi: "Elektr choynak Braun WK1100WH",
+        tavsifi: "1.7L, 45 soniyada qaynaydi",
+        narxi: 467100,
+        eskiNarx: 1148200,
+        reyting: 4.9,
+        sharhlarSoni: 7,
         like: false,
-        image: "https://images.uzum.uz/cpp771j6eisq2rkclt30/t_product_540_high.jpg"
+        rasm: "https://images.uzum.uz/cpp771j6eisq2rkclt30/t_product_540_high.jpg"
     }
 ];
 export const ArzonNarxlar = [

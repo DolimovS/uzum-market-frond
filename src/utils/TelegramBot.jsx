@@ -1,5 +1,6 @@
+const  token=import.meta.env.VITE_BOT_TOKEN
 export const sendToTelegram = () => {
-  const botToken = "7475347311:AAER5nOGjTbjlCUtlLGOYa4YuSDTfiVUZxA";
+  const botToken = token;
   const chatId = "6379829918";
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
