@@ -1,4 +1,7 @@
 import { NavLink } from "react-router-dom"
+import { FaBars } from "react-icons/fa";
+import { GiSelfLove } from "react-icons/gi";
+import { FaCartShopping } from "react-icons/fa6";
 import "./Header.css"
 
 const Header = () => {
@@ -9,21 +12,24 @@ const Header = () => {
                     <h1><NavLink to="/home">Uzum Markat</NavLink></h1>
                     <div className="nav_icons">
                         <NavLink to="/favorites" className="nav_icon">
-                            <span role="img" aria-label="favorites">💖</span>
-                            <span>Saralanganlar</span>
+                            <GiSelfLove />
+                            {/* <p role="img" aria-label="favorites">💖</p> */}
+                            <span className="nav_icon_text" >Saralanganlar</span>
                         </NavLink>
                         <NavLink to="/savat" className="nav_icon">
-                            <span role="img" aria-label="cart">🛒</span>
-                            <span>Savat</span>
+                            <FaCartShopping />
+                            {/* <p role="img" aria-label="cart">🛒</p> */}
+                            <span className="nav_icon_text">Savat</span>
                         </NavLink>
+                        
                     </div>
                 </div>
-                <div className="nav_catogoriya">
-                    <li><NavLink to="/elektronika">Elektronika</NavLink></li>
-                    <li><NavLink to="/krasovka">Krossovka</NavLink></li>
-                    <li><NavLink to="/zargarlikBuyumlari">Zargarlik Buyumlari</NavLink></li>
-                    <li><NavLink to="/uyRozgorBuyumlari">Uy Rozgor Buyumlari</NavLink></li>
-                </div>
+                <ul className="nav_catogoriya">
+                        <li><NavLink className={({ isActive }) => isActive ? "active" : ""} to="/elektronika">Elektronika</NavLink></li>
+                        <li><NavLink to="/krasovka">Krossovka</NavLink></li>
+                        <li><NavLink to="/zargarlikBuyumlari">Zargarlik Buyumlari</NavLink></li>
+                        <li><NavLink to="/uyRozgorBuyumlari">Uy Rozgor Buyumlari</NavLink></li>
+                </ul>
             </nav>
         </div>
     )

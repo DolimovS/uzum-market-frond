@@ -1,18 +1,9 @@
- /* ⚠️ sticky ishlashi uchun */
 
 .nav{
     padding-top: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* position:fixed; */
-    /* max-width: 1440px; */
-    /* width: 100%; */
-    /* padding:  10px; */
-    /* border-radius: 10px; */
-    /* top: 10px; */
-    /* z-index: 99; */
-    /* border: 1px solid red; */
 }
 .nav_left{
     display: flex;
@@ -27,7 +18,14 @@
 .nav_icons{
     display: flex;
     gap: 10px;
+    align-items: center;
 
+
+}
+.nav_icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .nav_icons a{
     padding: 10px 12px;
@@ -45,10 +43,11 @@
 }
 
 
-.nav_catogoriya{
+
+.nav_catogoriya {
     display: flex;
     gap: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .nav_catogoriya a{
     color: #4D4F59;
@@ -76,4 +75,25 @@
 .nav_catogoriya a:hover::after {
     transform: scaleX(1);
     background: #232325;
+}
+
+.nav_catogoriya li a.active {
+  color: orange;
+  font-weight: bold;
+}
+
+
+@media (max-width:650px){
+    .nav_icon_text{
+        display: none;
+    }
+    .nav_catogoriya{
+        width: 100%;
+        /* border: 1px solid red; */
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    .nav_catogoriya a{
+    font-size: 15px;
+    }
 }
