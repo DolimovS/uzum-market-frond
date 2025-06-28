@@ -4,7 +4,7 @@
     border-radius: 20px;
     position: relative;
     display: flex;
-    /* margin-top: 120px; */
+    margin-top: 20px;
 }
 .slider_img {
       width: 100%;
@@ -56,3 +56,24 @@
     justify-content: center;
 }
 
+@media (max-width:950px){
+.slider_box{
+    height: 400px;
+}
+}
+
+@media (max-width:800px){
+.slider_box{
+    height: 350px;
+}
+}
+@media (max-width:550px){
+.slider_box{
+    height: 280px;
+}
+}
+@media (max-width:400px){
+.slider_box{
+    height: 240px;
+}
+}

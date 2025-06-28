@@ -1,7 +1,26 @@
-.uzum_cards{
+.uzum_cards {
     /* border: 1px solid red; */
     height: 560px;
     display: flex;
     flex-wrap: nowrap;
     overflow: auto;
+}
+
+
+@media (max-width:937px) {
+    .uzum_cards {
+        height: 520px;
+    }
+}
+
+@media (max-width:570px) {
+    .uzum_cards {
+        height: 470px;
+    }
+}
+
+@media (max-width:500px) {
+        .uzum_cards {
+        height: 390px;
+    }
 }

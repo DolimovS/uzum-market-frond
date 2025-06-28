@@ -13,9 +13,7 @@ const Elektronika = () => {
             <h1 className="product_catogoriya">Elektronika</h1>
             <div className="product_cards">
                 {productElektronika.map((item) =>
-                    <div
-                        className="product_card"
-                        key={item.id}>
+                    <div className="product_card" key={item.id}>
                         <Link to={"/oneProduct/" + item.id}>
                             <div className="pruduct_img">
                                 <img src={item.rasm} alt="image" />
