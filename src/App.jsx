@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import {  Route, Routes } from 'react-router-dom'
 import Header from './components/Header/Header'
 
 import './App.css'
@@ -19,13 +19,13 @@ function App() {
     <div className="container">
       <Header/>
         <Routes>
-          <Route path='home' element={<Home/>} />
+          <Route path='/' element={<Home/>}/>
+          <Route path='home/' element={<Home/>} />
           <Route path='elektronika' element={<Elektronika/>} />
           <Route path='/krasovka' element={<Krasovka/>} />
           <Route path='/zargarlikBuyumlari' element={<Zargarlik/>} />
           <Route path='/uyRozgorBuyumlari' element={<UyRozgorBuyumlari/>} />
           <Route path='/savat' element={<SavatProduct/>} />
-          
           <Route path='/oneProduct/:id' element={<OneProduct/>}/>
         </Routes>
     </div>

@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom"
 import { FaBars } from "react-icons/fa";
 import { GiSelfLove } from "react-icons/gi";
 import { FaCartShopping } from "react-icons/fa6";
+import Home from "../Home/Home";
 import "./Header.css"
 
 const Header = () => {
@@ -31,6 +32,7 @@ const Header = () => {
                         <li><NavLink to="/uyRozgorBuyumlari">Uy Rozgor Buyumlari</NavLink></li>
                 </ul>
             </nav>
+            {/* <Home/> */}
         </div>
     )
 }
